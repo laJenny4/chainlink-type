@@ -1,0 +1,47 @@
+# ==========================
+# Node & TypeScript general
+# ==========================
+node_modules/
+dist/
+build/
+.cache/
+*.log
+*.tsbuildinfo
+
+# ==========================
+# Entornos locales
+# ==========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ==========================
+# Sistema operativo
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Hardhat & Blockchain
+# ==========================
+artifacts/
+cache/
+typechain/
+ignition/deployments/
+coverage/
+coverage.json
+
+# ==========================
+# IDE / Editor
+# ==========================
+.idea/
+.vscode/
+*.iml
+
+# ==========================
+# Temporal
+# ==========================
+tmp/
+temp/

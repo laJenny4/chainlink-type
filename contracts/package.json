@@ -1,0 +1,32 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "hardhat compile",
+    "request": "tsx scripts/request.ts",
+    "check": "tsx scripts/check-result.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.3",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.0",
+    "@types/express": "^5.0.4",
+    "@types/node": "^22.18.12",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "~5.8.0",
+    "viem": "^2.38.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "@chainlink/contracts": "^1.5.0",
+    "dotenv": "^17.2.3"
+  }
+}
